@@ -108,7 +108,7 @@ how the SDK handles caching is going to influence the way you use the SDK.
 
 Whe working with the Smartsheet API, the authoratative data for the sheet
 resides on a remote server accessed via calls to the API server.  To greater
-or lesser extents, this SDK attemts to insulate its users from that reality.
+or lesser extents, this SDK attempts to insulate its users from that reality.
 It does so by fetching the Sheet from the server and letting you work with the
 Sheet locally.  For read-only access to a Sheet, that works pretty well --
 provided you are willing to accept that the Sheet data you are reading might
